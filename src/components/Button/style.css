@@ -1,0 +1,115 @@
+.button {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.button .button-label {
+  font-family: var(--desktop-tablet-MD-body-body-2-medium-font-family);
+  font-size: var(--desktop-tablet-MD-body-body-2-medium-font-size);
+  font-style: var(--desktop-tablet-MD-body-body-2-medium-font-style);
+  font-weight: var(--desktop-tablet-MD-body-body-2-medium-font-weight);
+  letter-spacing: var(--desktop-tablet-MD-body-body-2-medium-letter-spacing);
+  line-height: var(--desktop-tablet-MD-body-body-2-medium-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .class {
+  height: 16px !important;
+}
+
+.button .class-2 {
+  height: 13px !important;
+  left: 1px !important;
+  top: 1px !important;
+  width: 13px !important;
+}
+
+.button .class-3 {
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.button .class-4 {
+  left: -5px !important;
+  top: -5px !important;
+}
+
+.button .class-5 {
+  height: 16px !important;
+  margin-bottom: -1px !important;
+  margin-top: -1px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.button .class-6 {
+  position: relative !important;
+}
+
+.button.large {
+  height: 42px;
+}
+
+.button.small {
+  height: 30px;
+}
+
+.button.text {
+  gap: 8px;
+}
+
+.button.secondary {
+  border: 2px solid;
+}
+
+.button.secondary.icon {
+  gap: 2px;
+}
+
+.button.icon.text {
+  gap: 2px;
+}
+
+.button.primary.disabled {
+  background-color: var(--neutralsgrey-300);
+}
+
+.button.primary.default {
+  background-color: var(--primaryprimary-500);
+}
+
+.button.secondary.disabled {
+  border-color: var(--neutralsgrey-300);
+}
+
+.button.secondary.default {
+  border-color: var(--primaryprimary-500);
+}
+
+.button.disabled .button-label {
+  color: var(--neutralsgrey-600);
+}
+
+.button.small .button-label {
+  margin-bottom: -1px;
+  margin-top: -5px;
+}
+
+.button.text.default .button-label {
+  color: var(--primaryprimary-500);
+}
+
+.button.secondary.default .button-label {
+  color: var(--primaryprimary-500);
+}
+
+.button.primary.default .button-label {
+  color: var(--neutralsgrey-00);
+}
